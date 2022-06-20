@@ -39,6 +39,10 @@
         align-items: center;
 
     }
+    .opinion2{
+        margin-top: 30px;
+
+    }
  }   
 
 @font-face{
@@ -90,7 +94,13 @@ body.parallax{
     margin-top: 50px;
     margin-left: 50px;
     text-shadow: none;
+    animation: bounce1 .5s alternate infinite ease-in;
 
+}
+
+@keyframes bounce1{
+    0%{transform: translateX(-40%); }
+    100%{transform: translateX(0%);}
 }
 .extensa{
     color: #fff;
