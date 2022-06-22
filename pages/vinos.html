@@ -5,59 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/styless.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Vinos</title>
 </head>
 <body class="parallax">
-    <div class="logo">
-        <h1><a class="extensa" href="../index.html">Vinos Priotto</a></h1>
-    </div>
     <br>
-    <section class="nav">
-        <nav class="nav">
-            <ul class="nav">
-            <li><a class="nav" href="../index.html">Inicio</a></li>
-            <li><a class="nav" href="nosotros.html">Nosotros</a> </li>
-            <li><a class="nav" href="cepas.html">Cepas</a></li>
-            <li><a class="nav" href="vinos.html">Vinos</a></li>
-            <li><a class="nav" href="contactos.html">Contactos</a></li>
-        </ul>
-    </nav>
-    </section>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Vinos Priotto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/cepas.html">Cepas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/vinos.html">Vinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
         <br>  
         <div class="extensa"> 
     <h3>Contamos con una extensa seleccion:</h3>
         </div>
     <br>
-    <section class="vinos">
-    <div class="lista-vinos">
-        <div class="vino1"><img src="../media/bosca.jpg" alt="Luigi Bosca" width="400" height="400">
-            <div class="nombresvino">
-            <h3>Luigi Bosca</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../media/aicardi.jpg" class="card-img-top" alt="Aicardi">
+            <div class="card-body">
+              <h5 class="card-title">Aicardi</h5>
+              <p class="card-text">Rojo púrpura brillante. Aromas plenos de fruta roja madura 
+                como ciruelas y cerezas, con notas de vainilla y café aportadas por su crianza en roble. 
+                Es un vino fresco, con muy buena acidez y taninos gentiles.</p>
             </div>
-        </div> 
-        <div class="vino1"><img src="../media/aicardi.jpg" alt="Aicardi" width="400" height="400">
-           <div class="nombresvino">
-            <h3>Aicardi</h3>
-           </div>
-        </div>
-        <div class="vino1"><img src="../media/catena.jpg" alt="Catena"width="400" height="400">
-           <div class="nombresvino">
-            <h3>Catena</h3>
-           </div>
-        </div>
-        <div class="vino1"><img src="../media/rose.jpg" alt="Rose"width="400" height="400">
-           <div class="nombresvino">
-            <h3>Andeluna</h3>
-           </div>
-        </div>
-        <div class="vino1"><img src="../media/terrazas.jpg" alt="Terrazas"width="400" height="400">
-          <div class="nombresvino">
-            <h3>Terrazas</h3>
           </div>
         </div>
-    </div>   
-    <br>
-    </section>
+        <div class="col">
+          <div class="card">
+            <img src="../media/bosca.jpg" class="card-img-top" alt="Luigi Bosca">
+            <div class="card-body">
+              <h5 class="card-title">Luigi Bosca</h5>
+              <p class="card-text">Luigi Bosca De Sangre Malbec Valle de Uco es un tinto de color rojo
+                 granate brillante, con aromas a frutas negras y notas especiadas, más ciertos tonos minerales muy atractivos. 
+                 Taninos finos de textura agradable, gran acidez, firmeza y equilibrio.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../media/catena.jpg" class="card-img-top" alt="DV Catena">
+            <div class="card-body">
+              <h5 class="card-title">DV Catena</h5>
+              <p class="card-text">DV Catena Malbec es un blend proveniente de uvas Malbec
+                 de dos diferentes viñedos. El viñedo Angelica aporta aromas de mermeladas 
+                 de ciruelas maduras y moras negras, suavidad y volumen al paladar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../media/terrazas.jpg" class="card-img-top" alt="Terrazas">
+            <div class="card-body">
+              <h5 class="card-title">Terrazas</h5>
+              <p class="card-text">Terrazas de los Andes Reserva Torrontés es un vino de color amarillo pálido
+                 con destellos verdosos. Predomina un carácter fresco y frutado. En boca se siente la presencia 
+                 de notas a frutas tropicales como melón y mandarina en equilibrio con notas a rosas blancas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     <br>
     <section class="footer">
         <footer>
@@ -70,5 +102,8 @@
         </footer>
         <br>
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+         crossorigin="anonymous"></script>
 </body>
 </html>

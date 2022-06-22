@@ -99,7 +99,7 @@ body.parallax{
 }
 
 @keyframes bounce1{
-    0%{transform: translateX(-40%); }
+    0%{transform: translateX(-10%); }
     100%{transform: translateX(0%);}
 }
 .extensa{
