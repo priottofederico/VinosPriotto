@@ -294,7 +294,7 @@ input textarea{
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;
+    max-width: 100%;
 
 
 }
