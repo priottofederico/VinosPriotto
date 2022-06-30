@@ -1,0 +1,32 @@
+body nav ul li {
+    color: rgba(240, 248, 255, 0.982);
+    padding-left: 15px;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-weight: bold;
+    text-align: end;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    border: 50px;
+
+
+
+}
+
+body.parallax {
+    background-image: url(../media/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30rem;
+    max-width: 100%;
+    position: relative;
+    text-decoration: none;
+
+
+}

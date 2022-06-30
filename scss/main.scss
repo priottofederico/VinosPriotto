@@ -1,0 +1,289 @@
+@import "reset";
+@import "body";
+@import "carrusel";
+@import "footer";
+
+
+
+@media screen and (max-width: 768px) {
+    .carrusel {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        position: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: -20px;
+    }
+
+    .body {
+        grid-template-columns: repeat(1);
+        align-items: center;
+
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .diferentes {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .opinion2 {
+        margin-top: 30px;
+
+    }
+}
+
+@font-face {
+
+    font-family: 'Abril Fatface', cursive;
+    src: url(https://fonts.google.com/specimen/Tiro+Bangla#standard-styles);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+@keyframes bounce1 {
+    0% {
+        transform: translateX(-10%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.extensa {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+
+}
+
+.nav {
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 12px;
+    justify-content: end;
+
+    &:hover {
+
+        color: rgb(0, 0, 0);
+    
+    }
+}
+
+.body {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.home-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.imagen {
+    display: grid;
+    grid-column: 100px;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 50px;
+    opacity: 0px;
+    size: 200px;
+    width: 300px;
+    background-color: none;
+
+
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: fill;
+
+&:hover {
+    transform: scale(0.9);
+
+}
+
+}
+
+.seleccion-vinos {
+    margin-top: 20px;
+
+}
+
+.introduccion {
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+
+}
+
+.nosotros {
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+}
+
+.inicio {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 1px;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+
+}
+
+.vinos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.vino1 {
+    border: solid 1px rgb(0, 0, 0);
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 40px;
+
+    &img {
+        border-radius: 40px;
+    
+    }
+
+}
+
+.nombresvino h3 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.lista-vinos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+
+
+}
+
+.label {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+.opinion {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 1px;
+    justify-content: center;
+
+}
+
+.formulario {
+    display: flex;
+    color: rgb(254, 254, 254);
+    width: 100px;
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+
+}
+
+input textarea {
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+
+
+}
+
+#boton {
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+
+    &:hover {
+        cursor: pointer;
+        border: solid;
+        border-radius: 20px;
+    }
+
+}
+.cepas {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.diferentes {
+    height: auto;
+    border: #ffffff;
+    border: solid;
+    size: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 100%;
+
+
+}
+
+
