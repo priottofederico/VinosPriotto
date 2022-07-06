@@ -2,8 +2,24 @@
   border: 0;
   box-sizing: border-box;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+body nav ul li {
+  color: rgba(240, 248, 255, 0.982);
+  padding-left: 15px;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-weight: bold;
+  text-align: end;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  float: right;
+  border: 50px;
+}
 
 body.parallax {
   background-image: url(../media/fondo.jpg);
@@ -14,18 +30,20 @@ body.parallax {
   min-height: 30rem;
   max-width: 100%;
   position: relative;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .carrusel {
-  color:rgba(240, 248, 255, 0.982) ;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 100px;
   margin-bottom: -100px;
   margin-left: 500px;
   margin-right: 500px;
   font-size: 50px;
   text-decoration: none;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
 
 .footer {
   display: flex;
@@ -34,25 +52,10 @@ body.parallax {
   width: 100%;
   color: white;
   text-align: center;
-  justify-content: center; 
-    
-}
-.bi-facebook{
-  display: flex;
-  font-size: 50px;
-  color: #fefefe;
-  
-
-}
-.bi-instagram{
-  display: flex;
-  font-size: 50px;
-  color: #fefefe;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-  .carrusel {
-    display: none; }
   .nav {
     display: flex;
     flex-direction: column;
@@ -60,51 +63,63 @@ body.parallax {
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: -20px; }
+    margin-bottom: -20px;
+  }
+
   .body {
     grid-template-columns: repeat(1);
-    align-items: center; }
+    align-items: center;
+  }
+
   .footer {
     display: flex;
-    align-items: center; }
+    align-items: center;
+  }
+
   .diferentes {
     display: flex;
-    align-items: center; }
-  .opinion2 {
-    margin-top: 30px; } }
+    align-items: center;
+  }
 
+  .opinion2 {
+    margin-top: 30px;
+  }
+}
 @font-face {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   src: url(https://fonts.google.com/specimen/Tiro+Bangla#standard-styles);
   text-decoration: none;
-  color: white; }
-
-
-
+  color: rgb(255, 255, 255);
+}
 .extensa {
   color: #fff;
   text-decoration: none;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
 
 .nav {
   display: flex;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-right: 12px;
-  justify-content: end; }
-  .nav:hover {
-    color: black; }
+  justify-content: end;
+}
+.nav:hover {
+  color: rgb(0, 0, 0);
+}
 
 .body {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 100%;
   line-height: 1.5;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .home-flex {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .imagen {
   display: grid;
@@ -115,58 +130,69 @@ body.parallax {
   opacity: 0px;
   size: 200px;
   width: 300px;
-  background-color: none; }
+  background-color: none;
+}
 
 .card {
   width: 100%;
   height: 100%;
   transition: 0.5s;
-  object-fit: fill; }
-  .card:hover {
-    transform: scale(0.9); }
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.card:hover {
+  transform: scale(0.9);
+}
 
 .seleccion-vinos {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .introduccion {
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-top: 200px;
   font-size: 50px;
   text-align: center;
-  text-shadow: black 0.1em 0.1em 0.2em; }
-
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
 
 .nosotros {
-  color: white;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
 
 .inicio {
-  display: flex ;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   padding: 50px;
   margin: 1px;
-  text-shadow: black 0.1em 0.1em 0.2em; }
+  text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+}
 
 .vinos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 .vino1 {
-  border: solid 1px black;
+  border: solid 1px rgb(0, 0, 0);
   margin: 30px;
   background-color: #fff;
-  border-radius: 40px; }
-  .vino1img {
-    border-radius: 40px; }
+  border-radius: 40px;
+}
+.vino1img {
+  border-radius: 40px;
+}
 
 .nombresvino h3 {
   text-align: center;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .lista-vinos {
   display: flex;
@@ -174,26 +200,29 @@ body.parallax {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 30px; }
+  margin: 30px;
+}
 
 .label {
   display: flex;
   justify-content: center;
-  color: white;
-  font-size: 25px; }
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
 
 .opinion {
   display: flex;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   padding: 50px;
   margin: 1px;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .formulario {
   display: flex;
-  color: #fefefe;
+  color: rgb(254, 254, 254);
   width: 100px;
   padding: 10px 20px;
   margin: auto;
@@ -201,28 +230,33 @@ body.parallax {
   margin-top: 20px;
   border-radius: 7px;
   margin-bottom: 10px;
-  justify-content: center; }
+  justify-content: center;
+}
 
 input textarea {
   width: 100px;
   margin-bottom: 20px;
   padding: 50px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 #boton {
   background: #31384A;
   color: #fff;
   padding: 20px;
   border: solid;
-  border-radius: 20px; }
-  #boton:hover {
-    cursor: pointer;
-    border: solid;
-    border-radius: 20px; }
+  border-radius: 20px;
+}
+#boton:hover {
+  cursor: pointer;
+  border: solid;
+  border-radius: 20px;
+}
 
 .cepas {
-  color: white;
-  font-weight: bold; }
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
 
 .diferentes {
   height: auto;
@@ -232,6 +266,5 @@ input textarea {
   margin-bottom: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  max-width: 100%; }
-
- 
+  max-width: 100%;
+}/*# sourceMappingURL=main.css.map */
