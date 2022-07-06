@@ -1,0 +1,58 @@
+.label {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+.opinion {
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 1px;
+    justify-content: center;
+
+}
+
+.formulario {
+    display: flex;
+    color: rgb(254, 254, 254);
+    width: 100px;
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    justify-content: center;
+
+
+}
+
+input textarea {
+    width: 100px;
+    margin-bottom: 20px;
+    padding: 50px;
+    box-sizing: border-box;
+
+
+}
+
+#boton {
+    background: #31384A;
+    color: #fff;
+    padding: 20px;
+    border: solid;
+    border-radius: 20px;
+
+    &:hover {
+        cursor: pointer;
+        border: solid;
+        border-radius: 20px;
+    }
+
+}
