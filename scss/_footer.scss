@@ -1,16 +1,15 @@
 .footer{
    
     display: flex;
-    left: 0;
-    bottom: -10px;
     width: 100%;
-    color: white;
     text-align: center;
     justify-content: center;
-    background-color: #0000;
-    
-  
-      
-  
+    background-color: rgba(143, 108, 108, 0);
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition: all .5s ease;
+    margin-top: 50px;
   }
   
+ 

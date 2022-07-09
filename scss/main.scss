@@ -270,5 +270,17 @@ input textarea {
 
 
 }
+.facebook{
+    border-radius: map-get($logofacebook, $border-radius);
+}
+.instagram{
+    @extend .facebook;
+    @include ancho (100px);
+    
+
+}
+
+    
+
 
 
