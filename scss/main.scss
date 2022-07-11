@@ -3,7 +3,7 @@
 @import "body";
 @import "carrusel";
 @import "nosotros";
-@import "cepas";
+@import "cavas";
 @import "vinos";
 @import "contactos";
 @import "footer";
@@ -270,17 +270,4 @@ input textarea {
 
 
 }
-.facebook{
-    border-radius: map-get($logofacebook, $border-radius);
-}
-.instagram{
-    @extend .facebook;
-    @include ancho (100px);
-    
-
-}
-
-    
-
-
 

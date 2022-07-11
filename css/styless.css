@@ -17,7 +17,8 @@ body nav ul li {
   display: inline;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   float: right;
-  border: 50px; }
+  border: 50px;
+  margin-top: 50px; }
 
 body.parallax {
   background-image: url(../media/fondo.jpg);
@@ -32,6 +33,7 @@ body.parallax {
 
 .carrusel {
   color: white;
+  width: 100%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 100px;
   margin-bottom: -100px;
@@ -44,7 +46,7 @@ body.parallax {
 .introduccion {
   color: #f9f4f4;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 50px;
   text-align: center;
   text-shadow: black 0.1em 0.1em 0.2em; }
@@ -58,7 +60,7 @@ body.parallax {
   margin: 1px;
   text-shadow: black 0.1em 0.1em 0.2em; }
 
-.cepas {
+.cavas {
   color: white;
   font-weight: bold; }
 
@@ -71,6 +73,14 @@ body.parallax {
   margin-left: 10px;
   margin-right: 10px;
   max-width: 100%; }
+
+.extensa {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+.textoCavas {
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 .vinos {
   display: flex;
@@ -152,7 +162,9 @@ input textarea {
   flex-direction: row;
   flex-wrap: wrap;
   transition: all .5s ease;
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding: 80px 0;
+  align-items: center; }
 
 @media screen and (max-width: 768px) {
   .nav {
