@@ -23,6 +23,10 @@
   text-transform: capitalize;
   line-height: 3rem;
   color: #fff;
+  align-items: center;
+  text-align: center;
+
+
   
 
 }
@@ -35,19 +39,29 @@
   justify-content: center;
   margin: 1rem 0 3rem 0;
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+  text-align: center;
+
 
 }
 .sociales li{
   margin: 0 10px;
+  align-items: center;
+  text-align: center;
+  
 
 }
 .sociales a{
   text-decoration: none;
   color: #fff;
+  align-items: center;
+  text-align: center;
+
 }
 .sociales a i{
   font-size: 1.1rem;
   transition: color .4s ease;
+  align-items: center;
+  text-align: center;
 
 }
 .sociales a:hover i{
