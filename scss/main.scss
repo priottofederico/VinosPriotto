@@ -125,7 +125,9 @@
 }
 
 .seleccion-vinos {
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
 
 }
 
@@ -266,7 +268,13 @@ input textarea {
     margin-left: 10px;
     margin-right: 10px;
     max-width: 100%;
-
-
 }
+.iframe{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+
+    }
 

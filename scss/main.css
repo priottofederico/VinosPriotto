@@ -72,6 +72,14 @@ body.parallax {
   text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
 }
 
+.iframe {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
 .cavas {
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -179,6 +187,25 @@ input textarea {
   border-radius: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  box-sizing: content-box;
+}
+.form-group:hover {
+  display: flex;
+  cursor: pointer;
+  color: #00ffff;
+  border: solid;
+  border-radius: 20px;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -186,7 +213,6 @@ input textarea {
   right: 0;
   background: #111;
   height: auto;
-  width: 100vw;
   padding-top: 40px;
   color: #fff;
 }
@@ -345,7 +371,8 @@ input textarea {
 }
 
 .seleccion-vinos {
-  margin-top: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .introduccion {
@@ -462,4 +489,12 @@ input textarea {
   margin-left: 10px;
   margin-right: 10px;
   max-width: 100%;
+}
+
+.iframe {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
